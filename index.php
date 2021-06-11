@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="Public/bootstrap.min.css">
 	<link rel="stylesheet" href="Public/estilos/styyles.css">
-	<title>PHP Test</title>
+	<title>LibroCaine Centu</title>
 </head>
 
 <body>

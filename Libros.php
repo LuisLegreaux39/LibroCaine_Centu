@@ -6,7 +6,7 @@ require("libreria/Crud.php");
 
 <head>
 	<link rel="stylesheet" href="Public/bootstrap.min.css">
-	<title>PHP Test</title>
+	<title>LibroCaine Centu</title>
 </head>
 
 <body>
