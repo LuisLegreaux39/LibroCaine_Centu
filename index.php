@@ -13,8 +13,7 @@
 	<?php require_once('Componentes/GetInTouch.html'); ?>
 	<?php require_once('Componentes/GetInTouch.html'); ?>
 	<?php require_once('Componentes/Footer.html'); ?>
-	</br>
-	</br>
+
 	<?php require('Componentes/jsFiles.html') ?>
 </body>
 
