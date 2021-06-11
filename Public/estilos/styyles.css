@@ -1,0 +1,15 @@
+.middle-image {
+    height: 300px;
+    background-image: url('../Images/bookStand.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+     /* background-color: rgba(255,0, 15, 0.5);  */
+
+}
+
+.middle-image .container {
+    /* background-color: rgba(255,0, 15, 0.5);  */
+    color: #ffff;
+    text-align: center;
+    padding: 100px;
+}
