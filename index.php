@@ -2,16 +2,19 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="Public/bootstrap.min.css">
-	<link rel="stylesheet" href="Public/estilos/styyles.css">
-	<title>LibroCaine Centu</title>
+	<?php require_once('Componentes/MetaInfo.html'); ?>
 </head>
 
 <body>
 	<?php require_once('Componentes/Nav.html'); ?>
 	<?php require_once('Componentes/MiddleImage.html'); ?>
+	<?php require_once('Componentes/AtYourService.html'); ?>
+	<?php require_once('Componentes/AboutSection.html'); ?>
+	<?php require_once('Componentes/GetInTouch.html'); ?>
+	<?php require_once('Componentes/GetInTouch.html'); ?>
+	<?php require_once('Componentes/Footer.html'); ?>
+	</br>
+	</br>
 	<?php require('Componentes/jsFiles.html') ?>
 </body>
 

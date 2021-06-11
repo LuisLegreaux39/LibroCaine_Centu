@@ -5,8 +5,7 @@ require("libreria/Crud.php");
 <html>
 
 <head>
-	<link rel="stylesheet" href="Public/bootstrap.min.css">
-	<title>LibroCaine Centu</title>
+<?php require_once('Componentes/MetaInfo.html'); ?>
 </head>
 
 <body>

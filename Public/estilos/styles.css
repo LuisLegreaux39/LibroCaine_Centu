@@ -1,0 +1,58 @@
+
+
+.middle-image {
+    height: 300px;
+    background-image: url('../Images/bookStand.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+     /* background-color: rgba(255,0, 15, 0.5);  */
+
+}
+
+.middle-image .container {
+    /* background-color: rgba(255,0, 15, 0.5);  */
+    color: #ffff;
+    text-align: center;
+    padding: 100px;
+}
+
+
+/* Middle -  Image Section */
+.masthead{
+    padding-top: 10rem;
+    color: white;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../Images/MiddleGirldreading.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.page-section{
+  padding: 8rem 0;
+}
+
+.fs-1 {
+    font-size: calc(1.375rem + 1.5vw) !important;
+  }
+  
+  .fs-2 {
+    font-size: calc(1.325rem + 0.9vw) !important;
+  }
+  
+  .fs-3 {
+    font-size: calc(1.3rem + 0.6vw) !important;
+  }
+  
+  .fs-4 {
+    font-size: calc(1.275rem + 0.3vw) !important;
+  }
+  
+  .fs-5 {
+    font-size: 1.25rem !important;
+  }
+  
+  .fs-6 {
+    font-size: 1rem !important;
+  }
