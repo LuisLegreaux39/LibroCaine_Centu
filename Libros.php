@@ -1,5 +1,4 @@
 <?php
-require("libreria/Empleado.php");
 require("libreria/Crud.php");
 ?>
 <html>
@@ -19,7 +18,7 @@ require("libreria/Crud.php");
 	<div class="container">
 	<div class="container" style="margin: 50px;">
 	<h1 >Libros disponibles <span class="badge badge-primary">New</span></h1>
-	<a class="text-light" href="CrearAuthor.php">
+	<a class="text-light" href="CrearTitulo.php">
 			<button type="button" class="btn btn-info">
 				Crear Titulo
 			</button>
@@ -38,7 +37,10 @@ require("libreria/Crud.php");
 					$resultado = $bd->getTitulos();
 					foreach ($resultado as $libros) {
 						echo '<tr>';
-						echo '<td>'.$libros['titulo'].'</td> <td>'.$libros['tipo'].'</td><td>'.$libros['precio'].'$</td> <td>'.$libros['notas'].'</td>';
+						echo '<td>'.$libros['titulo'].'</td> <td>'.$libros['tipo'].'</td><td>'.$libros['precio'].
+						'$</td> <td>'.$libros['notas'].'</td>'."<td>'<form action='Autores.php' method='POST'>
+						<button type='submit' class='btn btn-warning'  name='btn_delete'>Delete</button>
+						</form></td>";
                         echo '</tr>';
 					}
 					?>

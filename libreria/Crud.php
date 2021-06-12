@@ -31,17 +31,7 @@
 		}	
 
 	
-
-		public function getTiendas() {
-			$conx = $this->getConexion();
-			if ( is_object($conx) ) {
-			$sql = "SELECT * FROM tiendas";	
-			$data = $conx->query($sql);		   
-			}
-				
-			return $data;
-		}
-
+		//Operaciones Autores
 		public function getAutores() {
 			$conx = $this->getConexion();
 			if ( is_object($conx) ) {
@@ -54,13 +44,23 @@
 		public function insertAutor($id,$apellido,$nombre,$telefono,$direccion,$ciudad){
 			$conx = $this->getConexion();
 			if ( is_object($conx) ) {
-			$sql = "INSERT INTO autores VALUES ('$id','$apellido','$nombre','$telefono','$direccion','$ciudad','*','*',023)";	
-			print_r($sql);
+			// $sql = "INSERT INTO autores VALUES ('$id','$apellido','$nombre','$telefono','$direccion','$ciudad','*','*',023)";
+			$sql = "INSERT INTO autores(id_autor,apellido,nombre,telefono,direccion,ciudad,estado,pais,cod_postal) 
+				VALUES ('$id','$apellido','$nombre','$telefono','$direccion','$ciudad','*','*',023)";
 			$data = $conx->query($sql);		   
 			}
 		}
 
+		public function deleteAutor($id){
+			$conx = $this->getConexion();
+			if ( is_object($conx) ) {
+			$sql = "DELETE FROM autores WHERE id=$id";	
+			$data = $conx->query($sql);	   
+			}
+		}
 
+		//******************************* */ 
+		//Operaciones Titulos
 		public function getTitulos() {
 			$conx = $this->getConexion();
 			if ( is_object($conx) ) {
@@ -70,16 +70,15 @@
 				
 			return $data;
 		}
-		public function getBiografias() {
+		public function insertTitulo($id,$apellido,$nombre,$telefono,$direccion,$ciudad){
 			$conx = $this->getConexion();
 			if ( is_object($conx) ) {
-			$sql = "SELECT * from biografias join autores where biografias.id_autor = autores.id_autor";	
+			$sql = "INSERT INTO autores VALUES ('$id','$apellido','$nombre','$telefono','$direccion','$ciudad','*','*',023)";	
+			print_r($sql);
 			$data = $conx->query($sql);		   
 			}
-				
-			return $data;
 		}
-		
+		//******************************* */ 
 		
 	} // Fin de la clase
 ?> 

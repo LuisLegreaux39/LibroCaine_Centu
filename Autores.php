@@ -1,5 +1,4 @@
 <?php
-require("libreria/Empleado.php");
 require("libreria/Crud.php");
 ?>
 <html>
@@ -33,30 +32,37 @@ require("libreria/Crud.php");
 					<th scope="col">Telefono</th>
 					<th scope="col">Ciudad</th>
 					<th scope="col">Direccion</th>
-					<th scope="col">Accion</th>
+					<th scope="col"></th>
 				</tr>
 			</thead>
-			<tbody>
+				<tbody>
 					<?php
 					$resultado = $bd->getAutores();
 					// print_r(gettype($resultado));
 					foreach ($resultado as $autor) {
 						printf('<tr>');
 						printf('<td>'.$autor['nombre'].'</td>'.'<td>'. $autor['apellido'].'</td>'.'<td>'.$autor['telefono'].'</td>'
-						.'<td>'.$autor['ciudad'].'</td>'.'<td>'.$autor['direccion'].'</td>');
+						.'<td>'.$autor['ciudad'].'</td>'.'<td>'.$autor['direccion'].'</td>'.
+						"<td><form action='Autores.php' method='POST'>
+							<button type='submit' class='btn btn-warning' value=".$autor['id']." name='btn_delete'>Delete</button>
+						</form></td>");
 						printf('</tr>');
 					}
 					?>
-				<!-- <tr>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr> -->
-			</tbody>
-		</table>
+					<?php 
+						if($_SERVER["REQUEST_METHOD"]=='POST'){
+							if(isset($_POST['btn_delete'])){
+								$id = $_POST['btn_delete'];
+								$bd->deleteAutor($id);
+								echo "<meta http-equiv='refresh' content='0'>";
+							}
+						}
+					?>
+				</tbody>
+			</table>
+			</div>
 		</div>
-	</div>
-				</section>
+	</section>
 	<?php require('Componentes/jsFiles.html')?>
 </body>
 

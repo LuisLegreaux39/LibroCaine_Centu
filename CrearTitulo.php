@@ -1,5 +1,4 @@
 <?php
-require("libreria/Empleado.php");
 require("libreria/Crud.php");
 ?>
 <html>
