@@ -20,18 +20,23 @@ require("libreria/Crud.php");
             <?php 
                 if($_SERVER["REQUEST_METHOD"] == "POST"){
                     if(isset($_POST)){
-                        $nombre = $_POST['nombre'];
-                        $apellido = $_POST['apellido'];
-                        $telefono = $_POST['telefono'];
-                        $ciudad = $_POST['ciudad'];
-                        $direccion = $_POST['direccion'];
-                        // print_r($nombre);
-                        // print_r($apellido);
-                        // print_r($telefono);
-                        // print_r($ciudad);
-                        // print_r($direccion);
-
-
+                        $titulo = $_POST['titulo'];
+                        $id = $_POST['id'];
+                        $tipo = $_POST['tipo'];
+                        $precio = $_POST['precio'];
+                        $notas = $_POST['notas'];
+                        $bd->insertTitulo(
+                            $id,
+                            $titulo,
+                            $tipo,
+                            $precio,
+                            $notas
+                        );
+                        // print_r($titulo);
+                        // print_r($id);
+                        // print_r($tipo);
+                        // print_r($precio);
+                        // print_r($notas);
                     }
                 }
             ?>

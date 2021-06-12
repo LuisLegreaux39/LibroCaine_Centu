@@ -39,16 +39,20 @@ require("libreria/Crud.php");
 						echo '<tr>';
 						echo '<td>'.$libros['titulo'].'</td> <td>'.$libros['tipo'].'</td><td>'.$libros['precio'].
 						'$</td> <td>'.$libros['notas'].'</td>'."<td>'<form action='Autores.php' method='POST'>
-						<button type='submit' class='btn btn-warning'  name='btn_delete'>Delete</button>
+							<button type='submit' class='btn btn-warning' value=".$libros['id']."  name='btn_delete'>Delete</button>
 						</form></td>";
                         echo '</tr>';
 					}
 					?>
-				<!-- <tr>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr> -->
+				<?php 
+						if($_SERVER["REQUEST_METHOD"]=='POST'){
+							if(isset($_POST['btn_delete'])){
+								$id = $_POST['btn_delete'];
+								$bd->deleteAutor($id);
+								echo "<meta http-equiv='refresh' content='0'>";
+							}
+						}
+					?>
 			</tbody>
 		</table>
 	</div>

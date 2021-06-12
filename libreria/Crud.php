@@ -70,13 +70,23 @@
 				
 			return $data;
 		}
-		public function insertTitulo($id,$apellido,$nombre,$telefono,$direccion,$ciudad){
+		public function insertTitulo($id,$titulo,$tipo,$precio,$notas){
 			$conx = $this->getConexion();
 			if ( is_object($conx) ) {
-			$sql = "INSERT INTO autores VALUES ('$id','$apellido','$nombre','$telefono','$direccion','$ciudad','*','*',023)";	
-			print_r($sql);
+			$sql = "INSERT INTO titulos(id_titulo,titulo,tipo,precio,notas)
+				VALUES ('$id','$titulo','$tipo','$precio','$notas')";	
+			// print_r($sql);
 			$data = $conx->query($sql);		   
 			}
+		}
+		public function deleteTitulos($id){
+
+			$conx = $this->getConexion();
+
+			$sql = "DELETE FROM titulos WHERE id=$id";
+
+			$data = $conx->query($sql);	
+
 		}
 		//******************************* */ 
 		
