@@ -13,19 +13,18 @@ require("libreria/Crud.php");
 	<?php
 
 
-	$bd = new Crud();
+		$bd = new Crud();
 
 	?>
 	<section>
 	<div class="container" >
 		<div class="container" style="margin: 50px;">
 		<h1 >Autores disponibles <span class="badge badge-primary">New</span></h1>
-		<button type="button" class="btn btn-primary">
-			<a class="text-light" href="CrearAuthor.php">
+		<a class="text-light" href="CrearAuthor.php">
+			<button type="button" class="btn btn-info">
 				Crear Author
+			</button>
 			</a>
-		</button>
-		
 		<table class="table table-light">
 			<thead>
 				<tr>
@@ -34,6 +33,7 @@ require("libreria/Crud.php");
 					<th scope="col">Telefono</th>
 					<th scope="col">Ciudad</th>
 					<th scope="col">Direccion</th>
+					<th scope="col">Accion</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -42,7 +42,8 @@ require("libreria/Crud.php");
 					// print_r(gettype($resultado));
 					foreach ($resultado as $autor) {
 						printf('<tr>');
-						printf('<td>'.$autor['nombre'].'</td>'.'<td>'. $autor['apellido'].'</td>'.'<td>'.$autor['telefono'].'</td>'.'<td>'.$autor['ciudad'].'</td>'.'<td>'.$autor['direccion'].'</td>');
+						printf('<td>'.$autor['nombre'].'</td>'.'<td>'. $autor['apellido'].'</td>'.'<td>'.$autor['telefono'].'</td>'
+						.'<td>'.$autor['ciudad'].'</td>'.'<td>'.$autor['direccion'].'</td>');
 						printf('</tr>');
 					}
 					?>

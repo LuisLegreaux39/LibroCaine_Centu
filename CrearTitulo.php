@@ -16,8 +16,8 @@ require("libreria/Crud.php");
 	<section>
         <div class="container" >
             <div class="container" style="margin: 50px;">
-            <h1 >Registrar Autor</h1>
-            <?php require_once('Componentes/RegistrarAuthor.html');?>
+            <h1 >Registrar Titulo</h1>
+            <?php require_once('Componentes/RegistrarTitulo.html');?>
             <?php 
                 if($_SERVER["REQUEST_METHOD"] == "POST"){
                     if(isset($_POST)){
@@ -26,14 +26,6 @@ require("libreria/Crud.php");
                         $telefono = $_POST['telefono'];
                         $ciudad = $_POST['ciudad'];
                         $direccion = $_POST['direccion'];
-                        $bd->insertAutor(
-                            "123",
-                            $apellido,
-                            $nombre,
-                            $telefono,
-                            $direccion,
-                            $ciudad
-                        );
                         // print_r($nombre);
                         // print_r($apellido);
                         // print_r($telefono);

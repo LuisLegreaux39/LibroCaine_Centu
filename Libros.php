@@ -19,6 +19,11 @@ require("libreria/Crud.php");
 	<div class="container">
 	<div class="container" style="margin: 50px;">
 	<h1 >Libros disponibles <span class="badge badge-primary">New</span></h1>
+	<a class="text-light" href="CrearAuthor.php">
+			<button type="button" class="btn btn-info">
+				Crear Titulo
+			</button>
+			</a>
 		<table class="table table-light">
 			<thead>
 				<tr>
