@@ -1,0 +1,32 @@
+<!-- 
+		Manejo de la api de GoogleBooks
+		ApiKey = AIzaSyBzUtZmv_Ujs0ZpEgCfLVwKM2ogkHBlr4g
+
+		https://www.googleapis.com/books/v1/volumes?q=flowers&key=key
+	 -->
+<script>
+    let API_KEY = "AIzaSyBzUtZmv_Ujs0ZpEgCfLVwKM2ogkHBlr4g";
+    let API_END_POINT = "https://www.googleapis.com/books/v1/volumes?q=flowers&filter=free-ebooks&key=";
+
+    let url = `${API_END_POINT}${API_KEY}`;
+
+    function manejarGoogleApi() {
+        fetch(url)
+            .then(response => {
+                console.log(response)
+            })
+            .finally(data => console.log(data));
+    }
+    console.log(url)
+    manejarGoogleApi();
+</script>
+
+
+
+<div class="container" >
+    <div class="row">
+      <div class="col">
+        Column
+      </div>
+    </div>
+  </div>

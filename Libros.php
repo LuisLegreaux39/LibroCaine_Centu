@@ -38,8 +38,8 @@ require("libreria/Crud.php");
 					foreach ($resultado as $libros) {
 						echo '<tr>';
 						echo '<td>'.$libros['titulo'].'</td> <td>'.$libros['tipo'].'</td><td>'.$libros['precio'].
-						'$</td> <td>'.$libros['notas'].'</td>'."<td>'<form action='Autores.php' method='POST'>
-							<button type='submit' class='btn btn-warning' value=".$libros['id']."  name='btn_delete'>Delete</button>
+						'$</td> <td>'.$libros['notas'].'</td>'."<td>	 <form action='Autores.php' method='POST'>
+							<button type='submit' class='btn btn-warning' value=".$libros['id']." name='btn_delete'>Delete</button>
 						</form></td>";
                         echo '</tr>';
 					}
