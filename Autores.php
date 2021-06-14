@@ -10,28 +10,28 @@ require("libreria/Crud.php");
 <body>
 	<?php require_once('Componentes/Nav.html'); ?>
 	<?php
-
-
 		$bd = new Crud();
-
-	?>
+		?>
 	<section>
 	<div class="container" >
+		
 		<div class="container" style="margin: 50px;">
 		<h1 >Autores disponibles <span class="badge badge-primary">New</span></h1>
+		<br/>
 		<a class="text-light" href="CrearAuthor.php">
 			<button type="button" class="btn btn-info">
 				Crear Author
 			</button>
-			</a>
-		<table class="table table-light">
+		</a>
+		<br/>
+		<table class="table table-light" >
 			<thead>
 				<tr>
-					<th scope="col">Nombre</th>
-					<th scope="col">Apellido</th>
-					<th scope="col">Telefono</th>
-					<th scope="col">Ciudad</th>
-					<th scope="col">Direccion</th>
+					<th scope="col">Nombre<hr></th>
+					<th scope="col">Apellido<hr></th>
+					<th scope="col">Telefono<hr></th>
+					<th scope="col">Ciudad<hr></th>
+					<th scope="col">Direccion<hr></th>
 					<th scope="col"></th>
 				</tr>
 			</thead>
@@ -40,12 +40,23 @@ require("libreria/Crud.php");
 					$resultado = $bd->getAutores();
 					// print_r(gettype($resultado));
 					foreach ($resultado as $autor) {
-						printf('<tr>');
+						printf("<tr class='tableRows'>");
 						printf('<td>'.$autor['nombre'].'</td>'.'<td>'. $autor['apellido'].'</td>'.'<td>'.$autor['telefono'].'</td>'
 						.'<td>'.$autor['ciudad'].'</td>'.'<td>'.$autor['direccion'].'</td>'.
-						"<td><form action='Autores.php' method='POST'>
-							<button type='submit' class='btn btn-warning' value=".$autor['id']." name='btn_delete'>Delete</button>
-						</form></td>");
+						"<td>
+						<form action='EditarAutor.php' method='GET'>
+							<button type='submit' class='btn btn-info' value=".$autor['id']." name='btn_edit'>
+								<i class='bi-pencil fs-4 text-light'>
+								</i>
+							</button>
+						</form>
+							<form action='Autores.php' method='POST'>
+								<button type='submit' class='btn btn-danger' value=".$autor['id']." name='btn_delete'>
+									<i class='bi-trash fs-4 text-light'>
+									</i>
+								</button>
+							</form>
+						</td>");
 						printf('</tr>');
 					}
 					?>

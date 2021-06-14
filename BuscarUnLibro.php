@@ -8,6 +8,7 @@
 <body>
 	<?php require_once('Componentes/Nav.html'); ?>
 	<div class="container">
+		<br/>
 		<div class="jumbotron">
 			<h1 >Buscando:
 			<?php 

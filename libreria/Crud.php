@@ -31,14 +31,29 @@
 		}	
 
 	
-		//Operaciones Autores
+		//Operaciones Autores	
+		public function getAuthorByID($idAutor){
+
+			$conx = $this->getConexion();
+			
+			if(is_object($conx)){
+
+				$sql = "SELECT nombre,apellido,ciudad,telefono,direccion FROM autores WHERE id=$idAutor";
+
+				$data = $conx->query($sql);
+
+			}
+			return $data;
+		}
 		public function getAutores() {
 			$conx = $this->getConexion();
-			if ( is_object($conx) ) {
-			$sql = "SELECT * FROM autores";	
-			$data = $conx->query($sql);		   
+			if (is_object($conx) ) {
+
+				$sql = "SELECT * FROM autores";	
+
+				$data = $conx->query($sql);	
+
 			}
-				
 			return $data;
 		}
 		public function insertAutor($id,$apellido,$nombre,$telefono,$direccion,$ciudad){
@@ -52,20 +67,37 @@
 		}
 
 		public function deleteAutor($id){
+
 			$conx = $this->getConexion();
 			if ( is_object($conx) ) {
-			$sql = "DELETE FROM autores WHERE id=$id";	
-			$data = $conx->query($sql);	   
+
+				$sql = "DELETE FROM autores WHERE id=$id";	
+
+				$data = $conx->query($sql);	 
+
 			}
 		}
 
 		//******************************* */ 
 		//Operaciones Titulos
+		public function getTitulosByID($idTitulo){
+
+			$conx = $this->getConexion();
+			
+			if(is_object($conx)){
+
+				$sql ="SELECT titulo,tipo,id_titulo,precio,notas FROM titulos WHERE id=$idTitulo";
+				// print_r($sql);
+				$data = $conx->query($sql);
+
+			}
+			return $data;
+		}
 		public function getTitulos() {
 			$conx = $this->getConexion();
 			if ( is_object($conx) ) {
-			$sql = "SELECT * FROM titulos";	
-			$data = $conx->query($sql);		   
+				$sql = "SELECT * FROM titulos";	
+				$data = $conx->query($sql);		   
 			}
 				
 			return $data;
