@@ -319,6 +319,12 @@ VALUES(
   ) -- UPDATE Customers
   -- SET ContactName='Juan'
   -- WHERE Country='Mexico';
+UPDATE titulos as T
+SET T.titulo = 'TEST',
+  T.tipo = 'test',
+  T.precio = 'test',
+  T.notas = 'test'
+WHERE id = 27
 UPDATE titulos
 SET notas = "Esto es un update"
 WHERE id = 22 -- UPDATE Customers

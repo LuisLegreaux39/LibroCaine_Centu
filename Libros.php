@@ -44,7 +44,7 @@ require("libreria/Crud.php");
 						echo "<tr class='tableRows'>";
 						echo '<td>'.$libros['titulo'].'</td> <td>'.$libros['tipo'].'</td><td>'.$libros['precio'].
 						'$</td> <td>'.$libros['notas'].'</td>'."<td>
-							<form action='EditarLibro.php' method='POST' style='display:block;'>
+							<form action='EditarLibro.php' method='GET' style='display:block;'>
 								<button type='submit' class='btn btn-info' value=".$libros['id']." name='btn_edit'>
 									<i class='bi-pencil fs-4 text-light'>
 									</i>

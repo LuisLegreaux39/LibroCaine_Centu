@@ -77,6 +77,17 @@
 
 			}
 		}
+		public function updateAuthor($id,$nombre,$apellido,$telefono,$direccion,$ciudad){
+			$conx = $this->getConexion();
+			if(is_object($conx)){
+				$sql = "UPDATE autores SET autores.nombre='$nombre',autores.apellido='$apellido', 
+				autores.telefono='$telefono',autores.ciudad='$ciudad', 
+				autores.direccion ='$direccion' WHERE id=$id";
+				// print_r($sql);
+				$data = $conx->query($sql);
+			}
+			return $data;
+		}
 
 		//******************************* */ 
 		//Operaciones Titulos
@@ -105,14 +116,24 @@
 		public function insertTitulo($id,$titulo,$tipo,$precio,$notas){
 			$conx = $this->getConexion();
 			if ( is_object($conx) ) {
-			$sql = "INSERT INTO titulos(id_titulo,titulo,tipo,precio,notas)
-				VALUES ('$id','$titulo','$tipo','$precio','$notas')";	
-			// print_r($sql);
-			$data = $conx->query($sql);		   
+				$sql = "INSERT INTO titulos(id_titulo,titulo,tipo,precio,notas)
+					VALUES ('$id','$titulo','$tipo','$precio','$notas')";	
+				// print_r($sql);
+				$data = $conx->query($sql);		   
+			}
+		}
+
+		public function updateTitulo($id,$titulo,$tipo,$precio,$notas){
+			$conx = $this->getConexion();
+			if(is_object($conx)){
+				$sql =  "UPDATE titulos as T SET T.titulo = '$titulo',T.tipo='$tipo',T.precio =$precio,T.notas='$notas' WHERE id=$id";
+				// print_r($sql);
+				$conx->query($sql);
 			}
 		}
 		public function deleteTitulos($id){
 
+			
 			$conx = $this->getConexion();
 
 			$sql = "DELETE FROM titulos WHERE id=$id";

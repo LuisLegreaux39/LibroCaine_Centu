@@ -18,7 +18,24 @@ require("libreria/Crud.php");
                 
                 if($_SERVER['REQUEST_METHOD'] == 'POST'){
                     if(isset($_POST)){
-                        print_r($_POST);
+                        $id = $_POST['btn_Actualizar'];
+                        $nombre = $_POST['nombre'];
+                        $apellido = $_POST['apellido'];
+                        $telefono = $_POST['telefono'];
+                        $ciudad = $_POST['ciudad'];
+                        $direccion = $_POST['direccion'];
+                        $bd->updateAuthor(
+                            $id,
+                            $nombre,
+                            $apellido,
+                            $telefono,
+                            $direccion,
+                            $ciudad
+                        );
+                        print_r("
+                            <div class='alert alert-success' role='alert'>
+                               Registro editado
+                            </div>");
                     }
                 }
             
@@ -51,7 +68,7 @@ require("libreria/Crud.php");
                                         <label for='exampleFormControlInput1' class='form-label'>Dirección</label>
                                         <input type='text' value='".$row['direccion']."' name='direccion' class='form-control' placeholder='Insertar dirección de autor'>
                                     </div>
-                                    <button type='submit' class='btn btn-info'>Actualizar</button>
+                                    <button type='submit' name='btn_Actualizar' value='".$id."' class='btn btn-info'>Actualizar</button>
                             </form>
                             ");
                         }

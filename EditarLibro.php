@@ -9,20 +9,38 @@ require("libreria/Crud.php");
 
 <body>
 	<?php require_once('Componentes/Nav.html'); ?>
-	<?php 
-        $bd = new Crud();
-	?>
 	<section>
         <div class="container" >
             <div class="container" style="margin: 50px;">
             <h1 >Editar Titulo</h1>
             <?php 
+                $bd = new Crud();
                 if($_SERVER["REQUEST_METHOD"] == "POST"){
                     if(isset($_POST)){
                         $id = $_POST['btn_edit'];
+                        $titulo = $_POST['titulo'];
+                        $tipo = $_POST['tipo'];
+                        $precio = $_POST['precio'];
+                        $notas = $_POST['notas'];
+                        $bd->updateTitulo(
+                            $id,
+                            $titulo,
+                            $tipo,
+                            $precio,
+                            $notas 
+                        );
+                        print_r("
+                        <div class='alert alert-success' role='alert'>
+                           Registro editado
+                        </div>");
+                    }
+                }                
+                if($_SERVER["REQUEST_METHOD"] == "GET"){
+                    if(isset($_GET)){
+                        $id = $_GET['btn_edit'];
                         $titulo = $bd->getTitulosByID($id);
                         foreach($titulo as $row){
-                            print_r("<form action='CrearTitulo.php' method='post'>
+                            print_r("<form action='EditarLibro.php' method='post'>
                                 <div class='mb-3'>
                                     <label for='exampleFormControlInput1' class='form-label'>Titulo</label>
                                     <input type='text' value='".$row['titulo']."' name='titulo' class='form-control' placeholder='Insertar Nombre de la obra'>
@@ -44,7 +62,7 @@ require("libreria/Crud.php");
                                     <textarea type='text' name='notas' class='form-control mb-5' style='height: 800px;'
                                         placeholder='Insertar una reseña de la obra'>".$row['notas']."</textarea>
                                 </div>
-                                <button type='submit' class='btn btn-info'>Actualizar</button>
+                                <button type='submit' name='btn_edit' value='$id' class='btn btn-info'>Actualizar</button>
                             </form>");
                         }
                     }
