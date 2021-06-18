@@ -1,11 +1,8 @@
-<?php
-require("libreria/Crud.php");
-?>
 <html>
 
-<head>
-<?php require_once('Componentes/MetaInfo.html'); ?>
-</head>
+    <head>
+         <?php require_once('Componentes/MetaInfo.html'); ?>
+    </head>
 
 <body>
 	<?php require_once('Componentes/Nav.html'); ?>
@@ -14,7 +11,8 @@ require("libreria/Crud.php");
             <div class="container" style="margin: 50px;">
             <h1 >Editar Titulo</h1>
             <?php 
-                $bd = new Crud();
+                require("Modelos/titulos_model.php");
+                $libro = new TITULO_MODEL();
                 if($_SERVER["REQUEST_METHOD"] == "POST"){
                     if(isset($_POST)){
                         $id = $_POST['btn_edit'];
@@ -22,12 +20,16 @@ require("libreria/Crud.php");
                         $tipo = $_POST['tipo'];
                         $precio = $_POST['precio'];
                         $notas = $_POST['notas'];
-                        $bd->updateTitulo(
+                        $values = [
                             $id,
                             $titulo,
                             $tipo,
                             $precio,
-                            $notas 
+                            $notas
+                        ];
+                        $libro->updateTitulo(
+                            $id,
+                            $values 
                         );
                         print_r("
                         <div class='alert alert-success' role='alert'>
@@ -38,7 +40,7 @@ require("libreria/Crud.php");
                 if($_SERVER["REQUEST_METHOD"] == "GET"){
                     if(isset($_GET)){
                         $id = $_GET['btn_edit'];
-                        $titulo = $bd->getTitulosByID($id);
+                        $titulo = $libro->getTituloById($id);
                         foreach($titulo as $row){
                             print_r("<form action='EditarLibro.php' method='post'>
                                 <div class='mb-3'>

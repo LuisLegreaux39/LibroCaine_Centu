@@ -1,6 +1,6 @@
 {
     "Server": "localhost",
-    "BD": "lib",
+    "BD": "librocaina",
     "User": "root",
     "Clave": ""
 }

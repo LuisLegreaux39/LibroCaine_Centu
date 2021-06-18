@@ -1,0 +1,2665 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 676,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "005SAQAAMAAJ",
+            "etag": "FShlrgyNwKI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/005SAQAAMAAJ",
+            "volumeInfo": {
+                "title": "The Flower Vase",
+                "subtitle": "Containing the Language of Flowers and Their Poetic Sentiments",
+                "authors": [
+                    "Sarah Carter Edgarton Mayo"
+                ],
+                "publishedDate": "1844",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OSU:32435068931948"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 157,
+                "printType": "BOOK",
+                "categories": [
+                    "American poetry"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.0.1.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=005SAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=005SAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=005SAQAAMAAJ&pg=PP1&dq=flowers&hl=&as_brr=7&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=005SAQAAMAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=005SAQAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=005SAQAAMAAJ&rdid=book-005SAQAAMAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Flower_Vase.epub?id=005SAQAAMAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=005SAQAAMAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "8a8BAAAAQAAJ",
+            "etag": "WK+F1bkGMdM",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/8a8BAAAAQAAJ",
+            "volumeInfo": {
+                "title": "Flowers and moonshine",
+                "authors": [
+                    "Dúdú (pseud.)"
+                ],
+                "publishedDate": "1857",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OXFORD:600052952"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 86,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.0.3.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=8a8BAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=8a8BAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=8a8BAAAAQAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=2&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=8a8BAAAAQAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=8a8BAAAAQAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=8a8BAAAAQAAJ&rdid=book-8a8BAAAAQAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_and_moonshine.epub?id=8a8BAAAAQAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_and_moonshine.pdf?id=8a8BAAAAQAAJ&hl=&output=pdf&sig=ACfU3U2MoQ79d-_HoVasAjTGWLe4T8YC0Q&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=8a8BAAAAQAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Rgg0AQAAMAAJ",
+            "etag": "4PNgb493C7A",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Rgg0AQAAMAAJ",
+            "volumeInfo": {
+                "title": "Flowers, Their Language, Poetry, and Sentiment",
+                "subtitle": "With Choicest Extracts from Poets, a Dictionary of the Sentiment of Every Flower, Botanical Descriptions, &c",
+                "publishedDate": "1871",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "CHI:19683679"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 256,
+                "printType": "BOOK",
+                "categories": [
+                    "Flower language"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.2.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Rgg0AQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Rgg0AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=Rgg0AQAAMAAJ&pg=PP1&dq=flowers&hl=&as_brr=7&cd=3&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=Rgg0AQAAMAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Rgg0AQAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=Rgg0AQAAMAAJ&rdid=book-Rgg0AQAAMAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_Their_Language_Poetry_and_Sentim.epub?id=Rgg0AQAAMAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_Their_Language_Poetry_and_Sentim.pdf?id=Rgg0AQAAMAAJ&hl=&output=pdf&sig=ACfU3U1xKMTYdfdJKyQz0fGXs34OaWgk3Q&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Rgg0AQAAMAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "x6NgAAAAcAAJ",
+            "etag": "2zX3xYz2N5g",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/x6NgAAAAcAAJ",
+            "volumeInfo": {
+                "title": "The Language of Flowers. [Translated from the French of C. de la Tour, Pseud. I.e. L. Cortambert.]",
+                "publishedDate": "1834",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "BL:A0019657757"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 314,
+                "printType": "BOOK",
+                "categories": [
+                    "Flower language"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.0.1.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=x6NgAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=x6NgAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=x6NgAAAAcAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=4&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=x6NgAAAAcAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=x6NgAAAAcAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=x6NgAAAAcAAJ&rdid=book-x6NgAAAAcAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Language_of_Flowers_Translated_from.epub?id=x6NgAAAAcAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=x6NgAAAAcAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "IrgDAAAAYAAJ",
+            "etag": "4W33p9XJlr4",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/IrgDAAAAYAAJ",
+            "volumeInfo": {
+                "title": "Voice of Flowers",
+                "authors": [
+                    "Lydia Howard Sigourney"
+                ],
+                "publishedDate": "1848",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "NYPL:33433069343436"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 123,
+                "printType": "BOOK",
+                "categories": [
+                    "Flowers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "2.2.3.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=IrgDAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=IrgDAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=IrgDAAAAYAAJ&pg=PP1&dq=flowers&hl=&as_brr=7&cd=5&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=IrgDAAAAYAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=IrgDAAAAYAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=IrgDAAAAYAAJ&rdid=book-IrgDAAAAYAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Voice_of_Flowers.epub?id=IrgDAAAAYAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Voice_of_Flowers.pdf?id=IrgDAAAAYAAJ&hl=&output=pdf&sig=ACfU3U0ZYSXZa5J6791nI2NBUmUz6pJepA&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=IrgDAAAAYAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "qrXNAAAAMAAJ",
+            "etag": "tlTiNYtOWTw",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/qrXNAAAAMAAJ",
+            "volumeInfo": {
+                "title": "Cut Flowers",
+                "publishedDate": "1958",
+                "description": "Including data on carnations, chrysanthemums, gladioli, roses.",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UOM:39015073340674"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "categories": [
+                    "Cut flowers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.2.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=qrXNAAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=qrXNAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=qrXNAAAAMAAJ&pg=PP1&dq=flowers&hl=&as_brr=7&cd=6&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=qrXNAAAAMAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qrXNAAAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=qrXNAAAAMAAJ&rdid=book-qrXNAAAAMAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Cut_Flowers.epub?id=qrXNAAAAMAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=qrXNAAAAMAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Including data on carnations, chrysanthemums, gladioli, roses."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "dGEEAAAAQAAJ",
+            "etag": "iXklNf2EZyg",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/dGEEAAAAQAAJ",
+            "volumeInfo": {
+                "title": "A Wreath of Wild Flowers from New England",
+                "authors": [
+                    "Frances Sargent Osgood"
+                ],
+                "publishedDate": "1838",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OXFORD:590738772"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 364,
+                "printType": "BOOK",
+                "categories": [
+                    "American drama"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.0.4.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=dGEEAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=dGEEAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=dGEEAAAAQAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=7&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=dGEEAAAAQAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dGEEAAAAQAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=dGEEAAAAQAAJ&rdid=book-dGEEAAAAQAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/A_Wreath_of_Wild_Flowers_from_New_Englan.epub?id=dGEEAAAAQAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/A_Wreath_of_Wild_Flowers_from_New_Englan.pdf?id=dGEEAAAAQAAJ&hl=&output=pdf&sig=ACfU3U0vW4YcA2-faT0ZwcPAD-jN-MLpJw&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=dGEEAAAAQAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "3eVhAAAAcAAJ",
+            "etag": "x4ytdz+cuBQ",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/3eVhAAAAcAAJ",
+            "volumeInfo": {
+                "title": "The Etiquette of Flowers; Their Language and Sentiments, Etc",
+                "publishedDate": "1852",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "BL:A0019924979"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.1.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=3eVhAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=3eVhAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=3eVhAAAAcAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=8&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=3eVhAAAAcAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=3eVhAAAAcAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=3eVhAAAAcAAJ&rdid=book-3eVhAAAAcAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Etiquette_of_Flowers_Their_Language.epub?id=3eVhAAAAcAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=3eVhAAAAcAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "kYVMAAAAcAAJ",
+            "etag": "u52mye8S4pI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/kYVMAAAAcAAJ",
+            "volumeInfo": {
+                "title": "Flowers of Loveliness",
+                "subtitle": "Twelve Groups of Female Figures, Emblematic of Flowers",
+                "authors": [
+                    "Thomas Haynes Bayly"
+                ],
+                "publishedDate": "1837",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "BSB:BSB10633048"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 26,
+                "printType": "BOOK",
+                "categories": [
+                    "Flowers in literature"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.3.2.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=kYVMAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=kYVMAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=kYVMAAAAcAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=9&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=kYVMAAAAcAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=kYVMAAAAcAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=kYVMAAAAcAAJ&rdid=book-kYVMAAAAcAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_of_Loveliness.pdf?id=kYVMAAAAcAAJ&hl=&output=pdf&sig=ACfU3U148la9fq2lI_46i2RHczj83ZlZRQ&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=kYVMAAAAcAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "LOZhAAAAcAAJ",
+            "etag": "vu+iEW8Avm8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/LOZhAAAAcAAJ",
+            "volumeInfo": {
+                "title": "Flowers and their associations",
+                "authors": [
+                    "Anne Pratt"
+                ],
+                "publishedDate": "1840",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "BL:A0019924987"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 409,
+                "printType": "BOOK",
+                "categories": [
+                    "Botany"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.0.1.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=LOZhAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=LOZhAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=LOZhAAAAcAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=10&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=LOZhAAAAcAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=LOZhAAAAcAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=LOZhAAAAcAAJ&rdid=book-LOZhAAAAcAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_and_their_associations.epub?id=LOZhAAAAcAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=LOZhAAAAcAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "ha0rAQAAMAAJ",
+            "etag": "LcIqfo47+LE",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/ha0rAQAAMAAJ",
+            "volumeInfo": {
+                "title": "Floral Fancies and Morals from Flowers",
+                "authors": [
+                    "Floral fancies"
+                ],
+                "publishedDate": "1843",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UCSD:31822038207072"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 264,
+                "printType": "BOOK",
+                "categories": [
+                    "Conduct of life"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.3.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=ha0rAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=ha0rAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=ha0rAQAAMAAJ&pg=PP1&dq=flowers&hl=&as_brr=7&cd=11&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=ha0rAQAAMAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ha0rAQAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=ha0rAQAAMAAJ&rdid=book-ha0rAQAAMAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Floral_Fancies_and_Morals_from_Flowers.epub?id=ha0rAQAAMAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Floral_Fancies_and_Morals_from_Flowers.pdf?id=ha0rAQAAMAAJ&hl=&output=pdf&sig=ACfU3U1DDezHkSKmkiWJ6918wjPMmDe7vA&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=ha0rAQAAMAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "3swMxuzEVPoC",
+            "etag": "FPkd11YLaTg",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/3swMxuzEVPoC",
+            "volumeInfo": {
+                "title": "Proserpina",
+                "subtitle": "Studies of Wayside Flowers, While the Air was Yet Pure Among the Alps, and in the Scotland and England which My Father Knew",
+                "authors": [
+                    "John Ruskin"
+                ],
+                "publisher": "IndyPublish.com",
+                "publishedDate": "1875",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "HARVARD:32044018066944"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 85,
+                "printType": "BOOK",
+                "categories": [
+                    "Botany"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.4.4.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=3swMxuzEVPoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=3swMxuzEVPoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=3swMxuzEVPoC&pg=PP1&dq=flowers&hl=&as_brr=7&cd=12&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=3swMxuzEVPoC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=3swMxuzEVPoC"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=3swMxuzEVPoC&rdid=book-3swMxuzEVPoC&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Proserpina.epub?id=3swMxuzEVPoC&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Proserpina.pdf?id=3swMxuzEVPoC&hl=&output=pdf&sig=ACfU3U3O58fyKKDD2JrdUIUSQmeqUK3xvA&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=3swMxuzEVPoC&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "eC3dU6dR2E4C",
+            "etag": "cR+T3aQvnAg",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/eC3dU6dR2E4C",
+            "volumeInfo": {
+                "title": "The sentiment of flowers; or, Language of flora, by R. Tyas",
+                "authors": [
+                    "Robert Tyas"
+                ],
+                "publishedDate": "1842",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OXFORD:600051516"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 365,
+                "printType": "BOOK",
+                "categories": [
+                    "Flower language"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "2.4.5.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=eC3dU6dR2E4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=eC3dU6dR2E4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=eC3dU6dR2E4C&pg=PA17&dq=flowers&hl=&as_brr=7&cd=13&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=eC3dU6dR2E4C&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=eC3dU6dR2E4C"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=eC3dU6dR2E4C&rdid=book-eC3dU6dR2E4C&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/The_sentiment_of_flowers_or_Language_of.epub?id=eC3dU6dR2E4C&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/The_sentiment_of_flowers_or_Language_of.pdf?id=eC3dU6dR2E4C&hl=&output=pdf&sig=ACfU3U23EFDLoP2q2A-LdN-OeH1MDFWRDw&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=eC3dU6dR2E4C&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Oh no ! the little child loves the <b>flower</b> - garden , and watches with intense interest <br>\nthe early opening buds , such fair types of itself . The young , the middle - aged , <br>\nand the hoary head silvered with the snows of three - score years and ten ; all&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "uspEAAAAIAAJ",
+            "etag": "tYHkQbyhIOI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/uspEAAAAIAAJ",
+            "volumeInfo": {
+                "title": "The Flower Garden",
+                "subtitle": "Or, Breck's Book of Flowers ; in which are Described All the Various Hardy Herbaceous Perennials, Annuals, Shrubby Plants, and Evergreen Trees, Desirable for Ornamental Purposes, with Directions for Their Cultivation",
+                "authors": [
+                    "Joseph Breck"
+                ],
+                "publishedDate": "1859",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UCAL:$B308990"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 395,
+                "printType": "BOOK",
+                "categories": [
+                    "Floriculture"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.2.2.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=uspEAAAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=uspEAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=uspEAAAAIAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=14&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=uspEAAAAIAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=uspEAAAAIAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=uspEAAAAIAAJ&rdid=book-uspEAAAAIAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Flower_Garden.epub?id=uspEAAAAIAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Flower_Garden.pdf?id=uspEAAAAIAAJ&hl=&output=pdf&sig=ACfU3U1FVgGsLFbeeu0alUjqSd3GLZDzqA&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=uspEAAAAIAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "5UtEAAAAYAAJ",
+            "etag": "6ZB+0wEZt2s",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/5UtEAAAAYAAJ",
+            "volumeInfo": {
+                "title": "Success with Flowers, a Floral Magazine",
+                "publishedDate": "1890",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "CORNELL:31924071039436"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "categories": [
+                    "Floriculture"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.5.6.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=5UtEAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=5UtEAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=5UtEAAAAYAAJ&pg=RA3-PA86&dq=flowers&hl=&as_brr=7&cd=15&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=5UtEAAAAYAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=5UtEAAAAYAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=5UtEAAAAYAAJ&rdid=book-5UtEAAAAYAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Success_with_Flowers_a_Floral_Magazine.epub?id=5UtEAAAAYAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Success_with_Flowers_a_Floral_Magazine.pdf?id=5UtEAAAAYAAJ&hl=&output=pdf&sig=ACfU3U3LvC_saFhavg5YgAOKwWG_6SGPpw&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=5UtEAAAAYAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The vines present perfect wreaths of <b>flowers</b> , which are of rich brilliant colors ; <br>\nflashing scarlet , tipped with golden yellow ... We therefore guarantee every plant <br>\nwe send contrast with the True White Moon - <b>Flower</b> we offer . out to be the true&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "dzoAAAAAYAAJ",
+            "etag": "XgKhBcgSueg",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/dzoAAAAAYAAJ",
+            "volumeInfo": {
+                "title": "Flowers for the Parlor and Garden",
+                "authors": [
+                    "Edward Sprague Rand"
+                ],
+                "publishedDate": "1864",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "HARVARD:32044029192705"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 411,
+                "printType": "BOOK",
+                "categories": [
+                    "Floriculture"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.5.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=dzoAAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=dzoAAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=dzoAAAAAYAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=16&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=dzoAAAAAYAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dzoAAAAAYAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=dzoAAAAAYAAJ&rdid=book-dzoAAAAAYAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_for_the_Parlor_and_Garden.epub?id=dzoAAAAAYAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_for_the_Parlor_and_Garden.pdf?id=dzoAAAAAYAAJ&hl=&output=pdf&sig=ACfU3U3aa8YN7_ZUBRPoAj4eaEGH-oqBmw&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=dzoAAAAAYAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "TqICAAAAQAAJ",
+            "etag": "q04vUZV1Qx0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/TqICAAAAQAAJ",
+            "volumeInfo": {
+                "title": "Bible flowers and flower lore",
+                "publishedDate": "1885",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OXFORD:600090452"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 151,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.6.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=TqICAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=TqICAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=TqICAAAAQAAJ&pg=PP1&dq=flowers&hl=&as_brr=7&cd=17&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=TqICAAAAQAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=TqICAAAAQAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=TqICAAAAQAAJ&rdid=book-TqICAAAAQAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Bible_flowers_and_flower_lore.epub?id=TqICAAAAQAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Bible_flowers_and_flower_lore.pdf?id=TqICAAAAQAAJ&hl=&output=pdf&sig=ACfU3U3tvh3zxqXNpBu7ZwkTjwtaBIC2cQ&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=TqICAAAAQAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "qLGHOXigpo4C",
+            "etag": "gCLjn/J0Ygw",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/qLGHOXigpo4C",
+            "volumeInfo": {
+                "title": "The Moral of Flowers",
+                "publishedDate": "1833",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OXFORD:600042765"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 179,
+                "printType": "BOOK",
+                "categories": [
+                    "Flowers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.3.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=qLGHOXigpo4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=qLGHOXigpo4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=qLGHOXigpo4C&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=18&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=qLGHOXigpo4C&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qLGHOXigpo4C"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=qLGHOXigpo4C&rdid=book-qLGHOXigpo4C&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Moral_of_Flowers.epub?id=qLGHOXigpo4C&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Moral_of_Flowers.pdf?id=qLGHOXigpo4C&hl=&output=pdf&sig=ACfU3U1d8oBcsf3ouEx_DdignUrfHr0aUQ&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=qLGHOXigpo4C&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "6U8CAAAAQAAJ",
+            "etag": "npYPvk7jdWA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/6U8CAAAAQAAJ",
+            "volumeInfo": {
+                "title": "Passion Flowers: Meditations in Verse",
+                "authors": [
+                    "Passion Flowers"
+                ],
+                "publishedDate": "1863",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OXFORD:600076950"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "categories": [
+                    "Religious poetry, English"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.0.2.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=6U8CAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=6U8CAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=6U8CAAAAQAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=19&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=6U8CAAAAQAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=6U8CAAAAQAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=6U8CAAAAQAAJ&rdid=book-6U8CAAAAQAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Passion_Flowers_Meditations_in_Verse.epub?id=6U8CAAAAQAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Passion_Flowers_Meditations_in_Verse.pdf?id=6U8CAAAAQAAJ&hl=&output=pdf&sig=ACfU3U0yjXCPCmRvRCKTi5iVCY_cK_-KDA&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=6U8CAAAAQAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "ucLYY59wO04C",
+            "etag": "ZhxVnwMrgDA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/ucLYY59wO04C",
+            "volumeInfo": {
+                "title": "Certain Fresh Cut Flowers from Canada, Chile, Colombia, Costa Rica, Ecuador, Israel, and The Netherlands",
+                "subtitle": "Determinations of the Commission in Investigations Nos. 701-TA-275 Through 278 (final) Under the Tariff Act of 1930, Together with the Information Obtained in the Investigations : Determinations of the Commission in Investigations Nos. 731-TA-327 Through 331 (final) Under the Tariff Act of 1930, Together with the Information Obtained in the Investigations",
+                "authors": [
+                    "United States International Trade Commission"
+                ],
+                "publishedDate": "1987",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "IND:30000090533377"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 270,
+                "printType": "BOOK",
+                "categories": [
+                    "Cut flower industry"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.0.2.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=ucLYY59wO04C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=ucLYY59wO04C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=ucLYY59wO04C&pg=RA1-PA9&dq=flowers&hl=&as_brr=7&cd=20&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=ucLYY59wO04C&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ucLYY59wO04C"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=ucLYY59wO04C&rdid=book-ucLYY59wO04C&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Certain_Fresh_Cut_Flowers_from_Canada_Ch.epub?id=ucLYY59wO04C&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=ucLYY59wO04C&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "( T ) he domestic products &quot; like &quot; the imported products subject to investigation <br>\nare &quot; <b>flowers</b> &quot; ( that is , &quot; all fresh cut <b>flowers</b> &quot; ) . Therefore , the industry in the <br>\nUnited States , the &quot; domestic industry , &quot; consists of the domestic growers as <br>\nwhole of&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "2bCdaZ7KvDsC",
+            "etag": "v09I2isHsAw",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/2bCdaZ7KvDsC",
+            "volumeInfo": {
+                "title": "The Language of Flowers",
+                "subtitle": "The Floral Offering: a Token of Affection and Esteem; Comprising the Language and Poetry of Flowers ...",
+                "authors": [
+                    "Henrietta Dumont"
+                ],
+                "publishedDate": "1852",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "HARVARD:32044013658547"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 300,
+                "printType": "BOOK",
+                "categories": [
+                    "Flower language"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.4.0.full.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=2bCdaZ7KvDsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=2bCdaZ7KvDsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=2bCdaZ7KvDsC&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=21&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=2bCdaZ7KvDsC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2bCdaZ7KvDsC"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=2bCdaZ7KvDsC&rdid=book-2bCdaZ7KvDsC&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Language_of_Flowers.epub?id=2bCdaZ7KvDsC&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Language_of_Flowers.pdf?id=2bCdaZ7KvDsC&hl=&output=pdf&sig=ACfU3U1n9agbciLzFXS4cd_vmKAJsTiEZA&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=2bCdaZ7KvDsC&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "oCoEAAAAQAAJ",
+            "etag": "hyq2oFsnfgc",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/oCoEAAAAQAAJ",
+            "volumeInfo": {
+                "title": "Wild flowers of the year [by A. Pratt].",
+                "authors": [
+                    "Anne Pratt"
+                ],
+                "publishedDate": "1799",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OXFORD:590805329"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 284,
+                "printType": "BOOK",
+                "categories": [
+                    "Wild flowers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.4.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=oCoEAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=oCoEAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=oCoEAAAAQAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=22&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=oCoEAAAAQAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=oCoEAAAAQAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=oCoEAAAAQAAJ&rdid=book-oCoEAAAAQAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Wild_flowers_of_the_year_by_A_Pratt.epub?id=oCoEAAAAQAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Wild_flowers_of_the_year_by_A_Pratt.pdf?id=oCoEAAAAQAAJ&hl=&output=pdf&sig=ACfU3U1bQiBfB_5aZzZjPKVkRpSINTvahA&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=oCoEAAAAQAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "ebBWAAAAcAAJ",
+            "etag": "OLzlW3rPnBI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/ebBWAAAAcAAJ",
+            "volumeInfo": {
+                "title": "Flowers for Ornament and Decoration, and how to arrange them",
+                "authors": [
+                    "Miss E. A. MALING"
+                ],
+                "publishedDate": "1862",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "BL:A0017592655"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 142,
+                "printType": "BOOK",
+                "categories": [
+                    "Flower arrangement"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.0.1.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=ebBWAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=ebBWAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=ebBWAAAAcAAJ&pg=PP1&dq=flowers&hl=&as_brr=7&cd=23&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=ebBWAAAAcAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ebBWAAAAcAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=ebBWAAAAcAAJ&rdid=book-ebBWAAAAcAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_for_Ornament_and_Decoration_and.epub?id=ebBWAAAAcAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_for_Ornament_and_Decoration_and.pdf?id=ebBWAAAAcAAJ&hl=&output=pdf&sig=ACfU3U3o75mKOu_TGIKbkYWF9wmHL5F9Cg&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=ebBWAAAAcAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "WZ4wAAAAYAAJ",
+            "etag": "PfhzLxXURn0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/WZ4wAAAAYAAJ",
+            "volumeInfo": {
+                "title": "Controlling Insects on Flowers",
+                "authors": [
+                    "Floyd Franklin Smith"
+                ],
+                "publishedDate": "1967",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UVA:X030490638"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 81,
+                "printType": "BOOK",
+                "categories": [
+                    "Garden pests"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.2.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=WZ4wAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=WZ4wAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=WZ4wAAAAYAAJ&pg=PA64&dq=flowers&hl=&as_brr=7&cd=24&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=WZ4wAAAAYAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=WZ4wAAAAYAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=WZ4wAAAAYAAJ&rdid=book-WZ4wAAAAYAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Controlling_Insects_on_Flowers.epub?id=WZ4wAAAAYAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=WZ4wAAAAYAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Adults appear suddenly just before yucca <b>flowers</b> . They chew pits into <b>flower</b> <br>\nbuds and stems . Larvae feed as miners in petals of open <b>flowers</b> ; cause <b>flowers</b> <br>\nto appear limp and water soaked , and to drop prematurely . Distribution ."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "-jICAAAAQAAJ",
+            "etag": "nvR/A9YTgXY",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/-jICAAAAQAAJ",
+            "volumeInfo": {
+                "title": "Flowers; their moral, language, and poetry, ed. by H.G. Adams",
+                "authors": [
+                    "Henry Gardiner Adams"
+                ],
+                "publishedDate": "1844",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OXFORD:600072908"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.3.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=-jICAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=-jICAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=-jICAAAAQAAJ&pg=PP1&dq=flowers&hl=&as_brr=7&cd=25&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=-jICAAAAQAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=-jICAAAAQAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=-jICAAAAQAAJ&rdid=book--jICAAAAQAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_their_moral_language_and_poetry.epub?id=-jICAAAAQAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_their_moral_language_and_poetry.pdf?id=-jICAAAAQAAJ&hl=&output=pdf&sig=ACfU3U2iIp-d_Riqwkdacv5aAuGlkeWJBg&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=-jICAAAAQAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "7wJAAAAAYAAJ",
+            "etag": "PtcM3eFowHw",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/7wJAAAAAYAAJ",
+            "volumeInfo": {
+                "title": "The Rural Wreath, Or, Life Among the Flowers",
+                "authors": [
+                    "Laura Greenwood"
+                ],
+                "publishedDate": "1853",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "PRNC:32101072900143"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 272,
+                "printType": "BOOK",
+                "categories": [
+                    "Flower language"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.4.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=7wJAAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=7wJAAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=7wJAAAAAYAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=26&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=7wJAAAAAYAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=7wJAAAAAYAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=7wJAAAAAYAAJ&rdid=book-7wJAAAAAYAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Rural_Wreath_Or_Life_Among_the_Flowe.epub?id=7wJAAAAAYAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Rural_Wreath_Or_Life_Among_the_Flowe.pdf?id=7wJAAAAAYAAJ&hl=&output=pdf&sig=ACfU3U0ikr74RK5POBl0aBJEvS-MEbe7ZQ&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=7wJAAAAAYAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "R0kaAQAAIAAJ",
+            "etag": "uOkeCHGDS7E",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/R0kaAQAAIAAJ",
+            "volumeInfo": {
+                "title": "The Casket, Or, Flowers of Literature, Wit & Sentiment",
+                "publishedDate": "1833",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UCAL:B3009049"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "categories": [
+                    "American periodicals"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.2.2.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=R0kaAQAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=R0kaAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=R0kaAQAAIAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=27&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=R0kaAQAAIAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=R0kaAQAAIAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=R0kaAQAAIAAJ&rdid=book-R0kaAQAAIAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Casket_Or_Flowers_of_Literature_Wit.epub?id=R0kaAQAAIAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Casket_Or_Flowers_of_Literature_Wit.pdf?id=R0kaAQAAIAAJ&hl=&output=pdf&sig=ACfU3U1Mp9ak1KI8joChz7Y3j1vF6twbgw&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=R0kaAQAAIAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "CfYDAAAAQAAJ",
+            "etag": "4QTRa48OVFU",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/CfYDAAAAQAAJ",
+            "volumeInfo": {
+                "title": "Wild flowers and their teachings",
+                "authors": [
+                    "Wild flowers"
+                ],
+                "publishedDate": "1845",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OXFORD:591053042"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.2.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=CfYDAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=CfYDAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=CfYDAAAAQAAJ&pg=PA44&dq=flowers&hl=&as_brr=7&cd=28&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=CfYDAAAAQAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=CfYDAAAAQAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=CfYDAAAAQAAJ&rdid=book-CfYDAAAAQAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Wild_flowers_and_their_teachings.epub?id=CfYDAAAAQAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Wild_flowers_and_their_teachings.pdf?id=CfYDAAAAQAAJ&hl=&output=pdf&sig=ACfU3U2qtjmagls_RrIKuWjYjkMEI3vQvw&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=CfYDAAAAQAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "<b>Flowers</b> ! <b>flowers</b> ! bright merry - faced <b>flowers</b> ! I&#39;ll bless ye in joyous or sadden&#39;d <br>\nhours ; I love ye dearly , Ye look so cheerly . In Summer , Autumn , Winter , or <br>\nSpring . A <b>flower</b> is to me the loveliest thing That hath its birth On this chequer&#39;d&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "AmE1AAAAMAAJ",
+            "etag": "VXuCoGbH8zA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/AmE1AAAAMAAJ",
+            "volumeInfo": {
+                "title": "Wayside Flowers",
+                "authors": [
+                    "Harriet Annie Wilkins"
+                ],
+                "publishedDate": "1876",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UOM:39015063964384"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 255,
+                "printType": "BOOK",
+                "categories": [
+                    "World War, 1914-1918"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.5.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=AmE1AAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=AmE1AAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=AmE1AAAAMAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=29&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=AmE1AAAAMAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=AmE1AAAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=AmE1AAAAMAAJ&rdid=book-AmE1AAAAMAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Wayside_Flowers.epub?id=AmE1AAAAMAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Wayside_Flowers.pdf?id=AmE1AAAAMAAJ&hl=&output=pdf&sig=ACfU3U20_5jEZzLHUqb-bWstO73iA164AA&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=AmE1AAAAMAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "w1cDAAAAQAAJ",
+            "etag": "HKK5zPKBYMg",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/w1cDAAAAQAAJ",
+            "volumeInfo": {
+                "title": "Flowers and the flower garden",
+                "authors": [
+                    "Elizabeth Watts"
+                ],
+                "publishedDate": "1866",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OXFORD:591034733"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 182,
+                "printType": "BOOK",
+                "categories": [
+                    "Flower gardening"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.3.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=w1cDAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=w1cDAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=w1cDAAAAQAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=30&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=w1cDAAAAQAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=w1cDAAAAQAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=w1cDAAAAQAAJ&rdid=book-w1cDAAAAQAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_and_the_flower_garden.epub?id=w1cDAAAAQAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_and_the_flower_garden.pdf?id=w1cDAAAAQAAJ&hl=&output=pdf&sig=ACfU3U2sTRc2ne_zaO7L5RtWByxC-gTX3g&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=w1cDAAAAQAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "4UcQAQAAMAAJ",
+            "etag": "WEcoEogRLdk",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/4UcQAQAAMAAJ",
+            "volumeInfo": {
+                "title": "The Native Flowers and Ferns of the United States in Their Botanical, Horticultural and Popular Aspects",
+                "authors": [
+                    "Thomas Meehan"
+                ],
+                "publishedDate": "1878",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "CHI:14534835"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "categories": [
+                    "Ferns"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.5.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=4UcQAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=4UcQAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=4UcQAQAAMAAJ&pg=PA19&dq=flowers&hl=&as_brr=7&cd=31&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=4UcQAQAAMAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=4UcQAQAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=4UcQAQAAMAAJ&rdid=book-4UcQAQAAMAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Native_Flowers_and_Ferns_of_the_Unit.epub?id=4UcQAQAAMAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Native_Flowers_and_Ferns_of_the_Unit.pdf?id=4UcQAQAAMAAJ&hl=&output=pdf&sig=ACfU3U3DNC9ryZQrpUFqWpfLBbeE9xxFBg&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=4UcQAQAAMAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The large , showy , but scentless <b>flowers</b> of this species appear with the first <br>\napproach of spring , and often in the fall if that season be mild . Some Violets , <br>\nand those of this species more especially , have the power of perfecting seeds <br>\nwithout&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "pK9YAAAAMAAJ",
+            "etag": "e9WOOq37aFw",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/pK9YAAAAMAAJ",
+            "volumeInfo": {
+                "title": "Flowers from Hill and Dale",
+                "publishedDate": "1883",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UOM:39015056055349"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 132,
+                "printType": "BOOK",
+                "categories": [
+                    "Flowers in literature"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.2.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=pK9YAAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=pK9YAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=pK9YAAAAMAAJ&pg=PP16&dq=flowers&hl=&as_brr=7&cd=32&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=pK9YAAAAMAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=pK9YAAAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=pK9YAAAAMAAJ&rdid=book-pK9YAAAAMAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_from_Hill_and_Dale.epub?id=pK9YAAAAMAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Flowers_from_Hill_and_Dale.pdf?id=pK9YAAAAMAAJ&hl=&output=pdf&sig=ACfU3U0UH-bXyjbr2c_a7a3KgfVGtHUkQg&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=pK9YAAAAMAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "29 SONG OF THE <b>FLOWERS</b> , . ( Leigh Hunt . ) 31 WILD - <b>FLOWERS</b> , ( Robert <br>\nNicoll . ) 33 HYMN TO THE <b>FLOWERS</b> , ( Horace Smith . ) 35 TO THE DAISY , ( <br>\nWordsworth . ) 41 43 WITH A PRESSED <b>FLOWER</b> , ( James Russell Lowell . )&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "f98_AQAAMAAJ",
+            "etag": "0jtzLCWgQAM",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/f98_AQAAMAAJ",
+            "volumeInfo": {
+                "title": "Star-flowers",
+                "subtitle": "A Poem of the Woman's Mystery, Canto the First [-the Ninth]",
+                "authors": [
+                    "Thomas Lake Harris"
+                ],
+                "publishedDate": "1886",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UCD:31175031667622"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "categories": [
+                    "Women"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.3.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=f98_AQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=f98_AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=f98_AQAAMAAJ&pg=PA27&dq=flowers&hl=&as_brr=7&cd=33&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=f98_AQAAMAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=f98_AQAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=f98_AQAAMAAJ&rdid=book-f98_AQAAMAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Star_flowers.epub?id=f98_AQAAMAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=f98_AQAAMAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "I fold my star in a cloud of <b>flowers</b> , And vanish from sight where the rose - mist <br>\nshowers : I drink the dews of her still delight , And fold for sleep in the arms of <br>\nNight . I gather and circle my sheaf of rays Where the White Lady her orb displays<br>\n&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "RMhEAAAAIAAJ",
+            "etag": "n5VQ2oEG3ww",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/RMhEAAAAIAAJ",
+            "volumeInfo": {
+                "title": "The Flower Garden",
+                "subtitle": "Or Monthly Calendar of Practical Directions for the Culture of Flowers",
+                "authors": [
+                    "Martin Doyle"
+                ],
+                "publishedDate": "1835",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UCAL:$B307309"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 180,
+                "printType": "BOOK",
+                "categories": [
+                    "Floriculture"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.2.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=RMhEAAAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=RMhEAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "de",
+                "previewLink": "http://books.google.com.do/books?id=RMhEAAAAIAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=34&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=RMhEAAAAIAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=RMhEAAAAIAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=RMhEAAAAIAAJ&rdid=book-RMhEAAAAIAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Flower_Garden.epub?id=RMhEAAAAIAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Flower_Garden.pdf?id=RMhEAAAAIAAJ&hl=&output=pdf&sig=ACfU3U03Og0Q59m1DSZzZ2vzFLmnYQBbBw&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=RMhEAAAAIAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "vrYBAAAAQAAJ",
+            "etag": "lYt29q1pdZ8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/vrYBAAAAQAAJ",
+            "volumeInfo": {
+                "title": "Words by the Way-side, Or, The Children and the Flowers",
+                "authors": [
+                    "Emily Ayton"
+                ],
+                "publishedDate": "1855",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OXFORD:600055384"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 167,
+                "printType": "BOOK",
+                "categories": [
+                    "Nature study"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.5.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=vrYBAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=vrYBAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=vrYBAAAAQAAJ&pg=PP1&dq=flowers&hl=&as_brr=7&cd=35&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=vrYBAAAAQAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=vrYBAAAAQAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=vrYBAAAAQAAJ&rdid=book-vrYBAAAAQAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Words_by_the_Way_side_Or_The_Children_an.epub?id=vrYBAAAAQAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Words_by_the_Way_side_Or_The_Children_an.pdf?id=vrYBAAAAQAAJ&hl=&output=pdf&sig=ACfU3U05oJ7oPA_k8Zvo1QAXmlN0g8hQZQ&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=vrYBAAAAQAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "kFoCAAAAQAAJ",
+            "etag": "SbAxV1XiUao",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/kFoCAAAAQAAJ",
+            "volumeInfo": {
+                "title": "A crown of flowers, poems and pictures collected from the 'Girl's own paper', ed. by C. Peters",
+                "authors": [
+                    "Girl's own paper"
+                ],
+                "publishedDate": "1883",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OXFORD:600071169"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.4.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=kFoCAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=kFoCAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=kFoCAAAAQAAJ&pg=PA105&dq=flowers&hl=&as_brr=7&cd=36&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=kFoCAAAAQAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=kFoCAAAAQAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=kFoCAAAAQAAJ&rdid=book-kFoCAAAAQAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/A_crown_of_flowers_poems_and_pictures_co.epub?id=kFoCAAAAQAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/A_crown_of_flowers_poems_and_pictures_co.pdf?id=kFoCAAAAQAAJ&hl=&output=pdf&sig=ACfU3U31OnTbbKcoK5w_Zxc-9fb2_jXppQ&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=kFoCAAAAQAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "A BOUQUET of cherished <b>flowers</b> And I think - in the world&#39;s wide garden I <br>\ngathered one summer&#39;s day ; Of myriad minds and men , And some of them still <br>\nare blooming , How like are the friends I cherish But others have faded awayTo <br>\nthe&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Cd4CAAAAQAAJ",
+            "etag": "xzTVPr2eROQ",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Cd4CAAAAQAAJ",
+            "volumeInfo": {
+                "title": "Amongst the flowers. To which is added, Blanche's first communion; and God's messenger",
+                "authors": [
+                    "Annie Allen"
+                ],
+                "publishedDate": "1880",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OXFORD:600102877"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.4.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Cd4CAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Cd4CAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=Cd4CAAAAQAAJ&pg=PA50&dq=flowers&hl=&as_brr=7&cd=37&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=Cd4CAAAAQAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Cd4CAAAAQAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=Cd4CAAAAQAAJ&rdid=book-Cd4CAAAAQAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Amongst_the_flowers_To_which_is_added_Bl.epub?id=Cd4CAAAAQAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Amongst_the_flowers_To_which_is_added_Bl.pdf?id=Cd4CAAAAQAAJ&hl=&output=pdf&sig=ACfU3U13MUA3yFM-zFj7pxoo4n7rZKYWZQ&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Cd4CAAAAQAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "O happy <b>flowers</b> ! what would I give In your sweet place all day to live , And then <br>\nto die , my service o&#39;er , Softly as you do , at His door ! ” Before concluding , you <br>\nmay wish to hear what became of Annie&#39;s cousins , but as it would take me a long<br>\n&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "_lRHAAAAYAAJ",
+            "etag": "lo4kESpyNY4",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/_lRHAAAAYAAJ",
+            "volumeInfo": {
+                "title": "The Language of Flowers",
+                "subtitle": "With Illustrative Poetry; to which is Now First Added, the Calendar of Flowers ...",
+                "authors": [
+                    "Frederic Shoberl",
+                    "Louise Cortambert"
+                ],
+                "publishedDate": "1839",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "NYPL:33433010841298"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 360,
+                "printType": "BOOK",
+                "categories": [
+                    "Flower language"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.3.2.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=_lRHAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=_lRHAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=_lRHAAAAYAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=38&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=_lRHAAAAYAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=_lRHAAAAYAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=_lRHAAAAYAAJ&rdid=book-_lRHAAAAYAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Language_of_Flowers.epub?id=_lRHAAAAYAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Language_of_Flowers.pdf?id=_lRHAAAAYAAJ&hl=&output=pdf&sig=ACfU3U1QG0vU7r1qsmdbpZDW6nueANWbKw&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=_lRHAAAAYAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "WVFHAAAAYAAJ",
+            "etag": "vjRPBb6zgCI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/WVFHAAAAYAAJ",
+            "volumeInfo": {
+                "title": "The Language of Flowers",
+                "authors": [
+                    "Miss Ildrewe"
+                ],
+                "publishedDate": "1874",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "NYPL:33433010840241"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 216,
+                "printType": "BOOK",
+                "categories": [
+                    "Flower language"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "2.2.4.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=WVFHAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=WVFHAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=WVFHAAAAYAAJ&printsec=frontcover&dq=flowers&hl=&as_brr=7&cd=39&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=WVFHAAAAYAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=WVFHAAAAYAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=WVFHAAAAYAAJ&rdid=book-WVFHAAAAYAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Language_of_Flowers.epub?id=WVFHAAAAYAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/The_Language_of_Flowers.pdf?id=WVFHAAAAYAAJ&hl=&output=pdf&sig=ACfU3U2ozJfQ_q6WRP7_NpcLNY85-ALtCQ&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=WVFHAAAAYAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "ZesXAAAAYAAJ",
+            "etag": "qBs58/P+ZhI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/ZesXAAAAYAAJ",
+            "volumeInfo": {
+                "title": "Wild Flowers",
+                "subtitle": "Where to Find, and how to Know Them : with Remarks on the Economical & Medicinal Uses of Our Native Plants",
+                "authors": [
+                    "Spencer Thomson"
+                ],
+                "publishedDate": "1864",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "HARVARD:HN5FV9"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 309,
+                "printType": "BOOK",
+                "categories": [
+                    "Botany"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.2.2.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=ZesXAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=ZesXAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.do/books?id=ZesXAAAAYAAJ&pg=PP1&dq=flowers&hl=&as_brr=7&cd=40&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=ZesXAAAAYAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ZesXAAAAYAAJ"
+            },
+            "saleInfo": {
+                "country": "DO",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=ZesXAAAAYAAJ&rdid=book-ZesXAAAAYAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "DO",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.do/books/download/Wild_Flowers.epub?id=ZesXAAAAYAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com.do/books/download/Wild_Flowers.pdf?id=ZesXAAAAYAAJ&hl=&output=pdf&sig=ACfU3U1zB742j1KqUy2Nc_g6ogqQGE75zw&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=ZesXAAAAYAAJ&hl=&as_brr=7&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            }
+        }
+    ]
+}

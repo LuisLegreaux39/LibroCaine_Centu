@@ -1,12 +1,7 @@
-<?php
-require("libreria/Crud.php");
-?>
 <html>
-
-<head>
-<?php require_once('Componentes/MetaInfo.html'); ?>
-</head>
-
+    <head>
+        <?php require_once('Componentes/MetaInfo.html'); ?>
+    </head>
 <body>
 	<?php require_once('Componentes/Nav.html'); ?>
 	<section>
@@ -14,7 +9,8 @@ require("libreria/Crud.php");
             <div class="container" style="margin: 50px;">
             <h1 >Editar autor</h1>
             <?php 
-                $bd = new Crud();
+                require("Modelos/autor_model.php");
+                $autor = new AUTOR_MODEL();
                 
                 if($_SERVER['REQUEST_METHOD'] == 'POST'){
                     if(isset($_POST)){
@@ -24,14 +20,23 @@ require("libreria/Crud.php");
                         $telefono = $_POST['telefono'];
                         $ciudad = $_POST['ciudad'];
                         $direccion = $_POST['direccion'];
-                        $bd->updateAuthor(
-                            $id,
+                        $values = [
                             $nombre,
                             $apellido,
                             $telefono,
                             $direccion,
                             $ciudad
-                        );
+                        ];
+                        // print_r($values);
+                        $autor->updateAutor($id,$values);
+                        // $bd->updateAuthor(
+                        //     $id,
+                        //     $nombre,
+                        //     $apellido,
+                        //     $telefono,
+                        //     $direccion,
+                        //     $ciudad
+                        // );
                         print_r("
                             <div class='alert alert-success' role='alert'>
                                Registro editado
@@ -42,9 +47,7 @@ require("libreria/Crud.php");
                 if($_SERVER["REQUEST_METHOD"] == "GET"){
                     if(isset($_GET)){
                         $id = $_GET['btn_edit'];
-
-                        $autor = $bd->getAuthorByID($id);
-
+                        $autor = $autor->getAutorById($id);
                         foreach($autor as $row){
                             print_r("
                                 <form action='EditarAutor.php' method='POST'>

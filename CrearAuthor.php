@@ -1,23 +1,21 @@
-<?php
-require("libreria/Crud.php");
-?>
+
 <html>
 
 <head>
-<?php require_once('Componentes/MetaInfo.html'); ?>
+    <?php require_once('Componentes/MetaInfo.html'); ?>
 </head>
 
 <body>
 	<?php require_once('Componentes/Nav.html'); ?>
-	<?php 
-        $bd = new Crud();
-	?>
 	<section>
         <div class="container" >
             <div class="container" style="margin: 50px;">
             <h1 >Registrar Autor</h1>
             <?php require_once('Componentes/RegistrarAuthor.html');?>
             <?php 
+                require("Modelos/autor_model.php");
+                $autor = new AUTOR_MODEL();
+                
                 if($_SERVER["REQUEST_METHOD"] == "POST"){
                     if(isset($_POST)){
                         $nombre = $_POST['nombre'];
@@ -25,21 +23,19 @@ require("libreria/Crud.php");
                         $telefono = $_POST['telefono'];
                         $ciudad = $_POST['ciudad'];
                         $direccion = $_POST['direccion'];
-                        $bd->insertAutor(
-                            "123",
-                            $apellido,
+                        $values = [
                             $nombre,
+                            $apellido,
                             $telefono,
                             $direccion,
                             $ciudad
+                        ];
+                        $autor->insertAutor(
+                            $values
                         );
-                        // print_r($nombre);
-                        // print_r($apellido);
-                        // print_r($telefono);
-                        // print_r($ciudad);
-                        // print_r($direccion);
-
-
+                        print_r("<div class='alert alert-success' role='alert'>
+                                    Registro Guardado
+                                </div>");
                     }
                 }
             ?>

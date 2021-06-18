@@ -26,7 +26,7 @@
 			<div class="container">
 				<div class="row">
 					<?php 
-						$jsonStream = file_get_contents(__DIR__.'/GoogleBooks.json');
+						$jsonStream = file_get_contents(__DIR__.'/libreria/GoogleBooks.json');
 						$data = json_decode($jsonStream);
 						
 						foreach($data->items as $row){
