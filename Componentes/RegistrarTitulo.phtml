@@ -1,3 +1,8 @@
+
+<?php
+    require_once("Modelos/autor_model.php");
+    $autorModel = new AUTOR_MODEL();
+?>
 <form action="CrearTitulo.php" method="post">
     <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Titulo</label>
@@ -15,6 +20,18 @@
         <label class="form-label">Precio</label>
         <input type="number" name="precio" min="0" class="form-control" placeholder="Insertar Nombre de autor">
     </div>
+    <div class="mb-3">
+        <label for="exampleDataList" class="form-label">Autor</label>
+        <input class="form-control" list="datalistOptions" name="autor" id="exampleDataList" placeholder="Type to search...">
+        <datalist id="datalistOptions">
+        <?php
+            foreach($autorModel->getAllAutoresNamesAndId() as $row){
+                print_r("<option value=".$row['nombre'].">");
+            }
+            ?>
+        </datalist>
+    </div>
+
     <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Notas</label>
         <textarea type="text" name="notas" class="form-control mb-5" style="height: 800px;"

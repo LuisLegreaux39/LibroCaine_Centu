@@ -18,6 +18,7 @@
 					<th scope="col">Tipo<hr></th>
 					<th scope="col">Precio<hr></th>
 					<th scope="col">Notas<hr></th>
+					<th scope="col">Autor<hr></th>
 					<th scope="col"></th>
 				</tr>
 			</thead>
@@ -30,7 +31,7 @@
 					foreach ($resultado as $libros) {
 						echo "<tr class='tableRows'>";
 						echo '<td>'.$libros['titulo'].'</td> <td>'.$libros['tipo'].'</td><td>'.$libros['precio'].
-						'$</td> <td>'.$libros['notas'].'</td>'."<td>
+						'$</td> <td>'.$libros['notas'].'</td>'.'<td>'.$libros['autor'].'</td>'."<td>
 							<form action='EditarLibro.php' method='GET' style='display:block;'>
 								<button type='submit' class='btn btn-info' value=".$libros['id']." name='btn_edit'>
 									<i class='bi-pencil fs-4 text-light'>

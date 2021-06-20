@@ -8,9 +8,11 @@
         <div class="container" >
             <div class="container" style="margin: 50px;">
             <h1 >Registrar Titulo</h1>
-            <?php require_once('Componentes/RegistrarTitulo.html');?>
+            <?php require_once('Componentes/RegistrarTitulo.phtml');?>
+            
             <?php 
-                    require("Modelos/titulos_model.php");
+                    require_once("Modelos/titulos_model.php");
+                    // require_once("Modelos/autor_model.php");
                     $libro = new TITULO_MODEL();
                 if($_SERVER["REQUEST_METHOD"] == "POST"){
                     if(isset($_POST)){
@@ -19,13 +21,16 @@
                         $tipo = $_POST['tipo'];
                         $precio = $_POST['precio'];
                         $notas = $_POST['notas'];
+                        $autor = $_POST['autor'];
                         $values = [
                             $id,
                             $titulo,
                             $tipo,
                             $precio,
-                            $notas
+                            $notas,
+                            $autor 
                         ];
+                        // print_r($values);
                         $libro->insertarTitulo($values);
                         print_r("<div class='alert alert-success' role='alert'>
                                     Registro Guardado

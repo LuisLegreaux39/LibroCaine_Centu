@@ -1,5 +1,5 @@
 <?php 
-    require(__DIR__.'/../libreria/DATA_BASE_MANAGER_CLASS.php');
+    require_once(__DIR__.'/../libreria/DATA_BASE_MANAGER_CLASS.php');
     class AUTOR_MODEL{
         // Atributos De la clase
         private $id_autor = "";
@@ -17,7 +17,7 @@
         
         function __construct(){
            try {
-            $this->DB = new DATA_BASE_MANAGER();
+            $this->DB = DATA_BASE_MANAGER::getInstance();
            } catch (\Throwable $th) {
                echo "Error initiating the AUTOR CLASS".$th;
            }
@@ -47,6 +47,13 @@
                 $this->keyTableColumns,
                 $values,
                 $id);
+        }
+        public function getAllAutoresNamesAndId(){
+            $columns = ["nombre","id"];
+            return $this->DB->getRegistrosFromColumnaEspecifica(
+                $this->keyTable,
+                $columns
+            );
         }
     // Fin de la clase
 

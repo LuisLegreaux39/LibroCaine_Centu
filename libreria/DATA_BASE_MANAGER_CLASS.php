@@ -9,12 +9,19 @@
 		private $baseDatos = '';
 		private $usuario = '';
 		private $clave = '';
+		private static $classCentinel;
 
-		function __construct(){
+		private function __construct(){
 			$this->servidor=$GLOBALS['config']->Server;
 			$this->baseDatos = $GLOBALS['config']->BD;
 			$this->usuario = $GLOBALS['config']->User;
 			$this->clave = $GLOBALS['config']->Clave;
+		}
+		public static function getInstance(){
+			if(!isset(self::$classCentinel)){
+				self::$classCentinel = new DATA_BASE_MANAGER();
+			}
+			return self::$classCentinel;
 		}
 		// Public Functions
 
@@ -102,6 +109,23 @@
 			}
 		}
 
+		public function getRegistrosFromColumnaEspecifica($table,$columns){
+			$builds='';
+			if(count($columns) > 1){
+				$builds = implode(",",$columns);
+			}else{
+				$builds = implode("",$columns);
+			}
+			$conx = $this->getConexion();
+			if(is_object($conx)){
+				$sql = "SELECT $builds FROM $table";
+				// print_r($sql);
+				$data =  $conx->query($sql);
+				
+			}
+			return $data->fetchAll();
+		}
+
 		// Privates Methods
 		private function handleValueTypes($arr){
 			$build='';
@@ -129,5 +153,6 @@
 			}
 			return rtrim($build,",");
 		}
+
 	} // Fin de la clase 
 ?> 

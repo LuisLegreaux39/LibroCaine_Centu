@@ -1,5 +1,5 @@
 <?php 
-    require(__DIR__.'/../libreria/DATA_BASE_MANAGER_CLASS.php');
+    require_once(__DIR__.'/../libreria/DATA_BASE_MANAGER_CLASS.php');
     class TITULO_MODEL{
         // Atributos De la clase
         private $id_titulo = '';
@@ -14,10 +14,10 @@
         private $contrato = '';
         // Objetos 
         private $keyTable = 'titulos';
-        private $keyTableColumns=['id_titulo','titulo','tipo','precio','notas'];
+        private $keyTableColumns=['id_titulo','titulo','tipo','precio','notas','autor'];
         function __construct(){
             try {
-             $this->DB = new DATA_BASE_MANAGER();
+             $this->DB =  DATA_BASE_MANAGER::getInstance();
             } catch (\Throwable $th) {
                 echo "Error initiating the AUTOR CLASS".$th;
             }

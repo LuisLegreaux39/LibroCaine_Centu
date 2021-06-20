@@ -47,8 +47,8 @@
                 if($_SERVER["REQUEST_METHOD"] == "GET"){
                     if(isset($_GET)){
                         $id = $_GET['btn_edit'];
-                        $autor = $autor->getAutorById($id);
-                        foreach($autor as $row){
+                        $autores = $autor->getAutorById($id);
+                        foreach($autores as $row){
                             print_r("
                                 <form action='EditarAutor.php' method='POST'>
                                     <div class='mb-3'>
