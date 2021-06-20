@@ -20,12 +20,14 @@
                         $tipo = $_POST['tipo'];
                         $precio = $_POST['precio'];
                         $notas = $_POST['notas'];
+                        $autor = $_POST['autor'];
                         $values = [
                             $id,
                             $titulo,
                             $tipo,
                             $precio,
-                            $notas
+                            $notas,
+                            $autor
                         ];
                         $libro->updateTitulo(
                             $id,
@@ -59,6 +61,10 @@
                                     <label class='form-label'>Precio</label>
                                     <input type='number' value='".$row['precio']."' name='precio' min='0' class='form-control' placeholder='Insertar Nombre de autor'>
                                 </div>
+                                <div class='mb-3'>
+                                <label class='form-label'>Autor</label>
+                                <input type='text' value='".$row['autor']."' name='autor' min='0' class='form-control' placeholder='Insertar Nombre de autor'>
+                            </div>
                                 <div class='mb-3'>
                                     <label for='exampleFormControlInput1' class='form-label'>Notas</label>
                                     <textarea type='text' name='notas' class='form-control mb-5' style='height: 800px;'
