@@ -20,7 +20,7 @@
 
 *Update*
 ![image](https://user-images.githubusercontent.com/59577641/122691981-72a23c80-d200-11eb-8005-9a7255b1d896.png)
---
+---
 ### Pagina Registrar autores
 ![image](https://user-images.githubusercontent.com/59577641/121781719-1db55500-cb74-11eb-97aa-83566209d524.png)
 --
